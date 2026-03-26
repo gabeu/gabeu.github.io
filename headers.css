@@ -53,3 +53,92 @@ article {
 aside {
   float: left;
 }
+
+.gallery-page {
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #1c2430;
+}
+
+.gallery-intro {
+  max-width: 56rem;
+  margin: 0 auto 2rem;
+  font-size: 1.05rem;
+}
+
+.gallery-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border: 1px solid #d8dee8;
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+  box-shadow: 0 12px 32px rgba(18, 38, 63, 0.08);
+}
+
+.gallery-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.gallery-section p {
+  margin-bottom: 1.5rem;
+}
+
+.gallery-card {
+  height: 100%;
+  border: 1px solid #d8dee8;
+  border-radius: 0.9rem;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(18, 38, 63, 0.08);
+  overflow: hidden;
+}
+
+.gallery-card a {
+  display: block;
+  color: inherit;
+}
+
+.gallery-card-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  padding: 1rem;
+  background: linear-gradient(180deg, #f8fbff 0%, #eef3f9 100%);
+}
+
+.gallery-card img,
+.gallery-card embed {
+  max-width: 100%;
+  max-height: 260px;
+  width: auto;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.gallery-card figcaption {
+  padding: 1rem 1rem 1.1rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: #3d4958;
+}
+
+.gallery-card-wide .gallery-card-media {
+  min-height: 320px;
+}
+
+.gallery-card-wide img {
+  max-height: none;
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .gallery-page {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .gallery-section {
+    padding: 1rem;
+  }
+}
