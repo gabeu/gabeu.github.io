@@ -13,3 +13,43 @@
 .dropdown-toggle:not(:focus) {
   outline: 0;
 }
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+a:link {
+  color: #0017bb;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #001799;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eab500;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #001764;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+article {
+  float: left;
+  padding: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+aside {
+  float: left;
+}
