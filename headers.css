@@ -306,6 +306,10 @@ aside {
   margin-left: 24px;
   margin-right: 24px;
   color: #1c2430;
+  background:
+    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
+    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
+    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
 }
 
 .profile-shell {
@@ -315,18 +319,21 @@ aside {
 .profile-section {
   margin-bottom: 1.5rem;
   padding: 1.5rem 1.75rem;
-  border: 1px solid #d8dee8;
+  border: 1px solid #cfd8e6;
   border-radius: 1rem;
-  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
-  box-shadow: 0 12px 32px rgba(18, 38, 63, 0.08);
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+  box-shadow: 0 18px 38px rgba(18, 38, 63, 0.1);
 }
 
 .profile-section h2 {
+  display: inline-block;
   margin-bottom: 1rem;
-  font-size: 1rem;
+  padding-bottom: 0.35rem;
+  font-size: 1.02rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #5a6a80;
+  letter-spacing: 0.11em;
+  color: #17365d;
+  border-bottom: 3px solid #e3b23c;
 }
 
 .profile-list {
@@ -336,8 +343,8 @@ aside {
 
 .profile-list li {
   margin-bottom: 0.85rem;
-  line-height: 1.7;
-  color: #294261;
+  line-height: 1.72;
+  color: #203a59;
 }
 
 .profile-list li:last-child {
