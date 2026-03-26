@@ -301,3 +301,56 @@ aside {
     padding: 1.25rem;
   }
 }
+
+.profile-page {
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #1c2430;
+}
+
+.profile-shell {
+  padding-bottom: 3rem;
+}
+
+.profile-section {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem 1.75rem;
+  border: 1px solid #d8dee8;
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
+  box-shadow: 0 12px 32px rgba(18, 38, 63, 0.08);
+}
+
+.profile-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #5a6a80;
+}
+
+.profile-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.profile-list li {
+  margin-bottom: 0.85rem;
+  line-height: 1.7;
+  color: #294261;
+}
+
+.profile-list li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .profile-page {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .profile-section {
+    padding: 1.2rem 1.25rem;
+  }
+}
