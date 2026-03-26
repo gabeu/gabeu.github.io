@@ -171,3 +171,133 @@ aside {
     transform: translateY(0);
   }
 }
+
+.home-page {
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #1c2430;
+  background:
+    radial-gradient(circle at top left, rgba(179, 202, 255, 0.35), transparent 28%),
+    linear-gradient(180deg, #f7f9fd 0%, #ffffff 28%, #ffffff 100%);
+}
+
+.home-shell {
+  padding-bottom: 3rem;
+}
+
+.home-hero {
+  padding: 2rem 0 0.5rem;
+}
+
+.home-card {
+  border: 1px solid #d8dee8;
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 45px rgba(18, 38, 63, 0.1);
+  overflow: hidden;
+}
+
+.home-content {
+  padding: 2rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.home-photo-wrap {
+  position: relative;
+}
+
+.home-photo {
+  width: 100%;
+  min-height: 320px;
+  border-radius: 1rem;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 10px 28px rgba(18, 38, 63, 0.12);
+}
+
+.home-lead {
+  margin-bottom: 1.1rem;
+  font-size: 1.14rem;
+  line-height: 1.75;
+  color: #294261;
+}
+
+.home-body {
+  display: grid;
+  gap: 1rem;
+}
+
+.home-body p {
+  margin: 0;
+  line-height: 1.8;
+  color: #27425f;
+}
+
+.home-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.35rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.home-meta-item {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.home-meta-label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6a7890;
+}
+
+.home-meta-item p {
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  color: #31465f;
+}
+
+@media (max-width: 991.98px) {
+  .home-content {
+    padding: 1.5rem;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .home-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home-page {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .home-photo {
+    min-height: 260px;
+  }
+
+  .home-content {
+    padding: 1.25rem;
+  }
+}
