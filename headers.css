@@ -54,10 +54,21 @@ aside {
   float: left;
 }
 
+body {
+  background:
+    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
+    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
+    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
+}
+
 .gallery-page {
   margin-left: 24px;
   margin-right: 24px;
   color: #1c2430;
+  background:
+    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
+    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
+    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
 }
 
 .gallery-intro {
@@ -177,8 +188,9 @@ aside {
   margin-right: 24px;
   color: #1c2430;
   background:
-    radial-gradient(circle at top left, rgba(179, 202, 255, 0.35), transparent 28%),
-    linear-gradient(180deg, #f7f9fd 0%, #ffffff 28%, #ffffff 100%);
+    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
+    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
+    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
 }
 
 .home-shell {
