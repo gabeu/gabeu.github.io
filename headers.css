@@ -59,16 +59,15 @@ body {
     radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
     radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
     linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #ffffff;
 }
 
 .gallery-page {
   margin-left: 24px;
   margin-right: 24px;
   color: #1c2430;
-  background:
-    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
-    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
-    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
 }
 
 .gallery-intro {
@@ -187,10 +186,6 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   color: #1c2430;
-  background:
-    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
-    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
-    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
 }
 
 .home-shell {
@@ -318,10 +313,6 @@ body {
   margin-left: 24px;
   margin-right: 24px;
   color: #1c2430;
-  background:
-    radial-gradient(circle at top right, rgba(255, 214, 102, 0.22), transparent 20%),
-    radial-gradient(circle at top left, rgba(129, 178, 154, 0.18), transparent 24%),
-    linear-gradient(180deg, #f4f7fb 0%, #ffffff 28%, #ffffff 100%);
 }
 
 .profile-shell {
